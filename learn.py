@@ -11,7 +11,7 @@ from datetime import datetime
 from fuzzywuzzy import fuzz
 import configparser
 
-save_name = '1589908286'    # from /saves/ folder for continue learning
+save_name = '158xxxxx'    # from /saves/ folder for continue learning
 
 config_parser = configparser.RawConfigParser()
 
