@@ -1,1 +1,1 @@
-# WhatsApp_seq2seq_bot
+# WhatsApp seq2seq simple chatbot
