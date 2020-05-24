@@ -15,7 +15,7 @@ update_translated = True
 try:
     mlt_df = pd.read_csv(FILE_PATH)
 except:
-    ORIGINAL_FILE_PATH = 'learn_files\\movie_lines_all.txt'
+    ORIGINAL_FILE_PATH = 'learn_files\\movie_lines.txt'
     if os.path.isfile(ORIGINAL_FILE_PATH):
         mlt_df = pd.read_csv(ORIGINAL_FILE_PATH, sep=r'\+\+\+\$\+\+\+' , names = ['Line_ID', 'User_ID', 'Movie_ID', 'User', 'Text'], engine = 'python', encoding='ISO-8859-1')
     else:
