@@ -15,9 +15,9 @@ The model used is a sequence to sequence model that uses LSTM for generating tex
 # Instructions
 
 1. Set up the learning dataset by creating a folder named _learn\_files_ in which the following files should be placed:
-  1. In a folder named _WhatsAppChats_ all desired exported WhatsApp chats
-  2. _movie\_lines.txt_ from from [Cornell Movie Dialogs Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
-  3. a language compatible word vectors file from [https://fasttext.cc/docs/en/crawl-vectors.html](https://fasttext.cc/docs/en/crawl-vectors.html)
+    1. In a folder named _WhatsAppChats_ all desired exported WhatsApp chats
+    2. _movie\_lines.txt_ from from [Cornell Movie Dialogs Corpus](https://www.cs.cornell.edu/~cristian/Cornell_Movie-Dialogs_Corpus.html)
+    3. a language compatible word vectors file from [https://fasttext.cc/docs/en/crawl-vectors.html](https://fasttext.cc/docs/en/crawl-vectors.html)
 2. Execute _translate\_movie\_lines.py_: select desired language to translate to (None for not translating, i.e. English); for language select first Translator provider.
 3. Execute _make\_movie\_dialog\_pairs.py_: select desired language, must be same as WhatsApp chats
 4. Execute _WAChats\_processing.py_: provide in settings.ini [WA\_process]REPLY\_AS\_ID with your WhatsApp username
