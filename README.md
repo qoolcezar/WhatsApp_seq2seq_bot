@@ -25,7 +25,7 @@ The model used is a sequence to sequence model that uses LSTM for generating tex
 6. Execute _test\_model.py_ for model testing in terminal. Update _load\_save_ with desired model from _/saves/_ folder
 7. Execute _WA\_theBOT.py_ with model defined in _load\_save_, bot will reply to every contact or group defined in settings.ini from _/saves/{load\_save}/_ folder [WA\_srcaper]CHATTERS
 
-Must manually configure WhatsApp Web and define the profile path settings.ini [WA\_srcaper]BROWSER\_PATH
+Must manually configure WhatsApp Web and define the profile path settings.ini [WA\_srcaper]BROWSER\_PATH Tested only with Firefox
 
 # Reference
 
