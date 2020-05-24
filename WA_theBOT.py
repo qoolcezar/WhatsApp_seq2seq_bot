@@ -8,7 +8,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
 import re
 
-load_save = '1589908286' # from /saves/ folder
+load_save = '158xxxx' # from /saves/ folder
 
 config_parser = configparser.RawConfigParser(comment_prefixes='/', allow_no_value=True, delimiters='=')
 
