@@ -370,7 +370,7 @@ Step = int(np.around((N_SAMPLES - N_TEST) / NUM_SUBSETS))
 SAMPLE_ROUNDS = Step * NUM_SUBSETS
 
 def bot_reply(inp):
-    inp = [inp]
+    inp = np.array(inp).reshape(-1, *inp.shape)
     ans_partial = np.zeros((1,MAX_INPUT_LENGTH))
     ans_partial[0, -1] = word2idx[BOS.strip()]  #  the index of the symbol BOS (begin of sentence)
     for k in range(MAX_INPUT_LENGTH - 1):
